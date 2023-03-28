@@ -9,7 +9,7 @@ __email__ = "saul.alonso.monsalve@cern.ch"
 import torch
 from torch.utils.data import Dataset
 from glob import glob
-from constants import *
+from modules.constants import *
 
 
 class FittingDataset(Dataset):

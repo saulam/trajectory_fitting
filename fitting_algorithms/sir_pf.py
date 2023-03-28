@@ -10,7 +10,7 @@ import numpy as np
 import math
 import pickle as pk
 from numpy.random import uniform
-from ..modules import *
+from modules import *
 
 
 class FittingSIRPF:

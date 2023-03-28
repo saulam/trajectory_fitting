@@ -7,7 +7,7 @@ __author__ = 'Saul Alonso-Monsalve'
 __email__ = "saul.alonso.monsalve@cern.ch"
 
 # Training dataset path
-TRAINING_DATASET = "events"
+TRAINING_DATASET = "/scratch2/salonso/particle_filtering/code_paper/events"
 
 # for all the methods
 DETECTOR_RANGES = ((-1000., +1000.),

@@ -2,8 +2,8 @@ import tqdm
 import torch
 import os
 import numpy as np
-from ..modules import *
-from ..fitting_algorithms import FittingRNN
+from modules import *
+from fitting_algorithms import FittingRNN
 from torch.nn.utils.rnn import pad_sequence
 from torch.utils.data import DataLoader, random_split
 from timeit import default_timer as timer

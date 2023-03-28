@@ -3,8 +3,8 @@ import torch
 import os
 import math
 import numpy as np
-from ..modules import *
-from ..fitting_algorithms import FittingTransformer
+from modules import *
+from fitting_algorithms import FittingTransformer
 from torch.nn.utils.rnn import pad_sequence
 from torch.utils.data import DataLoader, random_split
 from timeit import default_timer as timer
